@@ -5,7 +5,7 @@ int main()
 {
     float final_frequency = 0;
     std::ifstream infile("./frequencies");
-    int frequency;
+    float frequency;
 
     while (infile >> frequency) {
         final_frequency += frequency;
